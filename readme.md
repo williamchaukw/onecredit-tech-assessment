@@ -15,7 +15,7 @@ A Node.js RESTful API built with TypeScript, Express, JWT authentication, and SQ
 - **dotenv** for environment management
 - **Jest** for testing (optional)
 
-### Step to start the project
+## Step to start the project
 - npm init -y
 - npm install express bcrypt jsonwebtoken axios dotenv better-sqlite3
 - npm install --save-dev typescript ts-node-dev @types/node @types/express @types/bcrypt @types/jsonwebtoken @types/axios
@@ -32,7 +32,7 @@ Inside tsconfig.json, ensure
   "esModuleInterop": true
 }
 
-#### Project structure 
+## Project structure 
 project-root/
 ├── src/
 │ ├── index.ts # Entry point
